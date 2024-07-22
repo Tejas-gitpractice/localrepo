@@ -1,8 +1,13 @@
-def ABCD:
+class ABCD:
     x = 2
 
-    def origin(self):
+    def main(self):
         x = 200
         y = 600
+        result = x+y
+        return result
+
+obj = ABCD()
+print(obj.main())
 
 
